@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rest test suite for PET store">
+    <test name="Create new user">
+        <classes>
+            <class name="org.qa.AndroidWeatherTest" />
+        </classes>
+    </test>
+</suite>
