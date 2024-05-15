@@ -1,0 +1,60 @@
+{
+  "version": "1.0",
+  "caps": [
+    {
+      "type": "text",
+      "name": "appium:deviceName",
+      "value": "Xiaomi M2101K7AG"
+    },
+    {
+      "type": "text",
+      "name": "platformName",
+      "value": "android"
+    },
+    {
+      "type": "text",
+      "name": "appium:automationName",
+      "value": "uiAutomator2"
+    },
+    {
+      "type": "text",
+      "name": "appium:appPackage",
+      "value": "com.info.weather.forecast"
+    },
+    {
+      "type": "text",
+      "name": "appium:appActivity",
+      "value": "com.info.weather.forecast.activity.SettingUnitActivity"
+    },
+    {
+      "type": "text",
+      "name": "appium:appium.platformVersion",
+      "value": "12"
+    }
+  ],
+  "server": {
+    "local": {},
+    "remote": {
+      "hostname": "127.0.0.1",
+      "port": "4723"
+    },
+    "sauce": {
+      "dataCenter": "us-west-1"
+    },
+    "headspin": {},
+    "browserstack": {},
+    "lambdatest": {},
+    "advanced": {},
+    "bitbar": {},
+    "kobiton": {},
+    "perfecto": {},
+    "pcloudy": {},
+    "testingbot": {},
+    "experitest": {},
+    "roboticmobi": {},
+    "remotetestkit": {},
+    "mobitru": {}
+  },
+  "serverType": "remote",
+  "visibleProviders": []
+}
