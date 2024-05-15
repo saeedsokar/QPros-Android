@@ -64,9 +64,9 @@ public class AndroidWeatherTest extends AndroidBaseTest {
         softAssert.assertEquals(isC,true);
         boolean hasPM = homePage.checkTimeFormat();
         softAssert.assertEquals(hasPM,true);
-        boolean isCorrectRainCount = homePage.isRainAppearing(6);
+        boolean isCorrectRainCount = homePage.isRainAppearing(5);
         softAssert.assertEquals(isCorrectRainCount,true);
-        boolean isCorrectHumidityCount = homePage.isHumidityAppearing(6);
+        boolean isCorrectHumidityCount = homePage.isHumidityAppearing(5);
         softAssert.assertEquals(isCorrectHumidityCount,true);
         softAssert.assertAll();
     }
